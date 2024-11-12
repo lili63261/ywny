@@ -1,0 +1,9 @@
+.page-transform{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    height: 100%;
+    &.in{
+        transform: rotateY(180deg);
+    }
+}

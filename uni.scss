@@ -1,0 +1,20 @@
+@import '@/uni_modules/uview-ui/theme.scss';
+@import url('//at.alicdn.com/t/c/font_4658494_ueolsco9xee.css');
+$default-color:#F2F2F2;
+$pbc: #152FFF;
+//页面背景色
+$page-bg-linear-gradient:linear-gradient(to bottom, #1A2BFF, #1BE1FF 30%, #fff 50%);
+
+//按钮背景色
+$btn-linear-gradient-color-1: #1A2BFF;
+$btn-linear-gradient-color-2: #00aaff;
+
+//按钮背景色
+$btn-linear-gradient-orange-color-1: #EC692C;
+$btn-linear-gradient-orange-color-2: #ffaa00;
+
+//页面内容 边距
+$page-padding:30rpx;
+
+//页面通用radius
+$common-border-radius:20rpx;

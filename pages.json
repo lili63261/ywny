@@ -1,0 +1,192 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/protocol",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+				// "navigationBarTextStyle": "black",
+				// "navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/chat",
+			"style": {
+				"navigationBarTitleText": "官方群聊"
+				// "navigationBarTextStyle": "black",
+				// "navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path" : "pages/news/show",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新闻详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/common/defray",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收银台",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/common/online",
+			"style" : 
+			{
+				"navigationBarTitleText" : "客服中心"
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/authenticate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "实名认证",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收货地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/password",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/team/poster",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀请好友",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/team/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的团队",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "官方公告"
+				// "navigationStyle": "custom",
+		        // "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/stock/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "央网股权",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/card/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "央网农卡",
+				"navigationStyle": "custom"
+            }
+        },{
+            "path" : "pages/vote/vote",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投票",
+				"navigationStyle": "custom"
+            }
+        }
+    ],
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#152FFF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home",
+				"text": "首页",
+				"iconPath": "static/images/common/footerTab/y-index.png",
+				"selectedIconPath": "static/images/common/footerTab/y-index-active.png"
+			},
+			{
+				"pagePath": "pages/stock/index",
+				"text": "央网股权",
+				"iconPath": "static/images/common/footerTab/y-stock.png",
+				"selectedIconPath": "static/images/common/footerTab/y-stock-active.png"
+			},
+			{
+				"pagePath": "pages/card/index",
+				"text": "央网农卡",
+				"iconPath": "static/images/common/footerTab/y-card.png",
+				"selectedIconPath": "static/images/common/footerTab/y-card-active.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "用户中心",
+				"iconPath": "static/images/common/footerTab/y-mine.png",
+				"selectedIconPath": "static/images/common/footerTab/y-mine-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "中国央网农业",
+		"navigationBarBackgroundColor": "#1D2DFF"
+	},
+	"insetLoader": {
+		"config":{
+			"uToast": "<u-toast ref='uToast' />"
+		},
+		"label":["uToast"],
+		"rootEle":"view"
+	}
+}
